@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Globals</name>
+    <events>
+        <variable constant="0" name="LastInputtedAngle" sid="985947435355734" static="0" type="number">0</variable>
+        <variable constant="0" name="UndyneLegsYMod" sid="107616383470028" static="0" type="number">-4</variable>
+        <variable constant="1" name="HEARTMODE_RED" sid="2975789364452609" static="0" type="number">0</variable>
+        <variable constant="1" name="HEARTMODE_BLUE" sid="6376919357343526" static="0" type="number">1</variable>
+        <variable constant="1" name="HEARTMODE_GREEN" sid="881300441386574" static="0" type="number">2</variable>
+        <variable constant="1" name="MODE_NORMAL" sid="7136545053781815" static="0" type="number">0</variable>
+        <variable constant="1" name="MODE_ENDLESS" sid="2256941513066222" static="0" type="number">1</variable>
+        <variable constant="1" name="MODE_SINGLE" sid="7019692061495417" static="0" type="number">2</variable>
+        <variable constant="1" name="MODE_PRACTICE" sid="631186454787328" static="0" type="number">3</variable>
+        <variable constant="1" name="DIRECTION_RIGHT" sid="190000058124689" static="0" type="number">0</variable>
+        <variable constant="1" name="DIRECTION_UP" sid="230503664799169" static="0" type="number">3</variable>
+        <variable constant="1" name="DIRECTION_LEFT" sid="846096395188657" static="0" type="number">2</variable>
+        <variable constant="1" name="DIRECTION_DOWN" sid="539184236377188" static="0" type="number">1</variable>
+        <variable constant="1" name="WEAPON_KNIFE" sid="935811728282783" static="0" type="number">0</variable>
+        <variable constant="1" name="WEAPON_BALLET" sid="449507191304488" static="0" type="number">1</variable>
+        <variable constant="0" name="SimulatorMode" sid="2567313271818781" static="0" type="number">0</variable>
+        <variable constant="0" name="EndlessStage" sid="1966297049622465" static="0" type="number">0</variable>
+        <variable constant="0" name="PracticeTarget" sid="824857649224256" static="0" type="number">60</variable>
+        <variable constant="0" name="SingleAttack" sid="9637412728316299" static="0" type="text"></variable>
+        <variable constant="0" name="Name" sid="8522084662131715" static="0" type="text">Chara</variable>
+        <variable constant="0" name="HP" sid="4067313995094888" static="0" type="number">60</variable>
+        <variable constant="0" name="AT" sid="464210671384356" static="0" type="number">20</variable>
+        <variable constant="0" name="BALLET_AT" sid="539053151803427" static="0" type="number">7</variable>
+        <variable constant="0" name="KNIFE_AT" sid="818914221965210" static="0" type="number">3</variable>
+        <variable constant="0" name="lastDamage" sid="444189074928665" static="0" type="number">0</variable>
+        <variable constant="0" name="MaxHP" sid="2742940924955148" static="0" type="number">60</variable>
+        <variable constant="0" name="UndyneHP" sid="382611922182268" static="0" type="number">23000</variable>
+        <variable constant="0" name="UndyneLastHP" sid="306426590729256" static="0" type="number">23000</variable>
+        <variable constant="0" name="UndyneMaxHP" sid="996966444686686" static="0" type="number">23000</variable>
+        <variable constant="0" name="UndyneDEF" sid="100109137920660" static="0" type="number">5</variable>
+        <variable constant="0" name="UndyneATK" sid="162863549767656" static="0" type="number">12</variable>
+        <variable constant="0" name="bonusfactor" sid="432905050848709" static="0" type="number">0</variable>
+        <variable constant="0" name="stretch" sid="951253933666979" static="0" type="number">0</variable>
+        <variable constant="0" name="KR" sid="2189987320058474" static="0" type="number">0</variable>
+        <variable constant="0" name="KR_T" sid="8948293770944489" static="0" type="number">0</variable>
+        <variable constant="0" name="WeaponType" sid="399677559995510" static="0" type="number">0</variable>
+        <variable constant="0" name="one" sid="765994660346569" static="0" type="number">0</variable>
+        <variable constant="0" name="two" sid="328505335201159" static="0" type="number">0</variable>
+        <variable constant="0" name="three" sid="882916782472691" static="0" type="number">0</variable>
+        <variable constant="0" name="INV" sid="515385076115233" static="0" type="number">0.66666</variable>
+    </events>
+</c2eventsheet>
