@@ -47,19 +47,19 @@
                             <param id="1" name="Value">2</param>
                             <param id="2" name="Axis">0</param>
                         </action>
-                        <action id="5" name="Push" sid="3889781542724411" type="PlayerItems">
+                        <action id="5" name="Push" sid="103592651506850" type="PlayerItems">
                             <param id="0" name="Where">0</param>
-                            <param id="1" name="Value">3</param>
+                            <param id="1" name="Value">2</param>
                             <param id="2" name="Axis">0</param>
                         </action>
-                        <action id="5" name="Push" sid="4711405679659032" type="PlayerItems">
+                        <action id="5" name="Push" sid="497326048382430" type="PlayerItems">
                             <param id="0" name="Where">0</param>
-                            <param id="1" name="Value">3</param>
+                            <param id="1" name="Value">2</param>
                             <param id="2" name="Axis">0</param>
                         </action>
-                        <action id="5" name="Push" sid="3882860326812116" type="PlayerItems">
+                        <action id="5" name="Push" sid="128294199841896" type="PlayerItems">
                             <param id="0" name="Where">0</param>
-                            <param id="1" name="Value">3</param>
+                            <param id="1" name="Value">2</param>
                             <param id="2" name="Axis">0</param>
                         </action>
                         <action disabled="1" id="5" name="Push" sid="6875653235496314" type="PlayerItems">
@@ -403,98 +403,7 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-9" name="Destroy" sid="80140630355217" type="SpeechBubble" />
-                        <action id="4" name="Set animation" sid="1266186448284215" type="UndyneHead">
-                            <param id="0" name="Animation">&quot;LookLeft&quot;</param>
-                            <param id="1" name="From">1</param>
-                        </action>
-                        <action id="0" name="Call function" sid="9564903039530182" type="Function">
-                            <param id="0" name="Name">&quot;SansText&quot;</param>
-                            <param id="1" name="Parameter {n}">&quot;thats kind of a problem.&quot;{###}&quot;NoEffects2&quot;</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="1013452918260168">
-                    <conditions>
-                        <condition id="0" name="On function" sid="907394125956675" type="Function">
-                            <param id="0" name="Name">&quot;NoEffects2&quot;</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="-9" name="Destroy" sid="5184984371153454" type="SpeechBubble" />
-                        <action id="4" name="Set animation" sid="5291306138511684" type="UndyneHead">
-                            <param id="0" name="Animation">&quot;Default&quot;</param>
-                            <param id="1" name="From">1</param>
-                        </action>
-                        <action id="0" name="Call function" sid="6160373462858134" type="Function">
-                            <param id="0" name="Name">&quot;SansText&quot;</param>
-                            <param id="1" name="Parameter {n}">&quot;some effects aren&apos;t going&quot; &amp; newline &amp; &quot;to work.&quot;{###}&quot;NoEffects3&quot;</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="3849064852892823">
-                    <conditions>
-                        <condition id="0" name="On function" sid="6198122169927445" type="Function">
-                            <param id="0" name="Name">&quot;NoEffects3&quot;</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="-9" name="Destroy" sid="4077843787701976" type="SpeechBubble" />
-                        <action id="4" name="Set animation" sid="6263510020998762" type="UndyneHead">
-                            <param id="0" name="Animation">&quot;Wink&quot;</param>
-                            <param id="1" name="From">1</param>
-                        </action>
-                        <action id="0" name="Call function" sid="8938939640487405" type="Function">
-                            <param id="0" name="Name">&quot;UndyneText&quot;</param>
-                            <param id="1" name="Parameter {n}">&quot;I had to make my speech&quot; &amp; newline &amp; &quot;bubble inverted just so&quot; &amp; newline &amp; &quot;you can see what I&apos;m&quot; &amp; newline &amp; &quot;saying!&quot;{###}&quot;NoEffects4&quot;</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="8063055597507141">
-                    <conditions>
-                        <condition id="0" name="On function" sid="2112139998922969" type="Function">
-                            <param id="0" name="Name">&quot;NoEffects4&quot;</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="-9" name="Destroy" sid="2584035881780578" type="SpeechBubble" />
-                        <action id="4" name="Set animation" sid="8362377340837748" type="UndyneHead">
-                            <param id="0" name="Animation">&quot;ClosedEyes&quot;</param>
-                            <param id="1" name="From">1</param>
-                        </action>
-                        <action id="0" name="Call function" sid="2694031369129686" type="Function">
-                            <param id="0" name="Name">&quot;UndyneText&quot;</param>
-                            <param id="1" name="Parameter {n}">&quot;Most importantly, my yellow&quot; &amp; newline &amp; &quot;attacks might just look like&quot; &amp; newline &amp; &quot;normal attacks.&quot;{###}&quot;NoEffects5&quot;</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="5786683413174243">
-                    <conditions>
-                        <condition id="0" name="On function" sid="2005501994527497" type="Function">
-                            <param id="0" name="Name">&quot;NoEffects5&quot;</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="-9" name="Destroy" sid="3244047799302167" type="SpeechBubble" />
-                        <action id="4" name="Set animation" sid="5232358365858677" type="UndyneHead">
-                            <param id="0" name="Animation">&quot;NoEyes&quot;</param>
-                            <param id="1" name="From">1</param>
-                        </action>
-                        <action id="0" name="Call function" sid="2552241740051866" type="Function">
-                            <param id="0" name="Name">&quot;UndyneText&quot;</param>
-                            <param id="1" name="Parameter {n}">&quot;Continue if you dare.&quot;{###}&quot;NoEffects6&quot;</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="4017356252387848">
-                    <conditions>
-                        <condition id="0" name="On function" sid="7815790488384539" type="Function">
-                            <param id="0" name="Name">&quot;NoEffects6&quot;</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="-9" name="Destroy" sid="140165793045117" type="SpeechBubble" />
-                        <action id="0" name="Call function" sid="2510490404829929" type="Function">
+                        <action id="0" name="Call function" sid="569837537165113" type="Function">
                             <param id="0" name="Name">&quot;StartAttack&quot;</param>
                             <param id="1" name="Parameter {n}"></param>
                         </action>
@@ -609,51 +518,6 @@
                                 </action>
                             </actions>
                             <sub-events>
-                                <event-block sid="7653489424215733">
-                                    <conditions>
-                                        <condition id="-14" name="Compare variable" sid="1896193851997421" type="System">
-                                            <param id="0" name="Variable">KR</param>
-                                            <param id="1" name="Comparison">5</param>
-                                            <param id="2" name="Value">0</param>
-                                        </condition>
-                                    </conditions>
-                                    <actions>
-                                        <action id="-10" name="Set value" sid="4925109422702469" type="CombatZone">
-                                            <param id="0" name="Instance variable">InfoText</param>
-                                            <param id="1" name="Value">&quot;* The wind is howling...&quot;</param>
-                                        </action>
-                                    </actions>
-                                </event-block>
-                                <event-block disabled="1" sid="311543805478558">
-                                    <conditions>
-                                        <condition id="-14" name="Compare variable" sid="123335850813357" type="System">
-                                            <param id="0" name="Variable">KR</param>
-                                            <param id="1" name="Comparison">5</param>
-                                            <param id="2" name="Value">10</param>
-                                        </condition>
-                                    </conditions>
-                                    <actions>
-                                        <action id="-10" name="Set value" sid="759843657247084" type="CombatZone">
-                                            <param id="0" name="Instance variable">InfoText</param>
-                                            <param id="1" name="Value">&quot;* You felt your sins weighing&quot; &amp; newline &amp; &quot;  on your neck.&quot;</param>
-                                        </action>
-                                    </actions>
-                                </event-block>
-                                <event-block disabled="1" sid="795306615451230">
-                                    <conditions>
-                                        <condition id="-14" name="Compare variable" sid="905557718249398" type="System">
-                                            <param id="0" name="Variable">KR</param>
-                                            <param id="1" name="Comparison">5</param>
-                                            <param id="2" name="Value">20</param>
-                                        </condition>
-                                    </conditions>
-                                    <actions>
-                                        <action id="-10" name="Set value" sid="708135348105202" type="CombatZone">
-                                            <param id="0" name="Instance variable">InfoText</param>
-                                            <param id="1" name="Value">&quot;* KARMA coursing through your&quot; &amp; newline &amp; &quot;  veins.&quot;</param>
-                                        </action>
-                                    </actions>
-                                </event-block>
                                 <event-block sid="8793208741086474">
                                     <conditions>
                                         <condition id="-7" name="Compare instance variable" sid="1174001643764288" type="UndyneLegs">
@@ -691,144 +555,18 @@
                                         </event-block>
                                     </sub-events>
                                 </event-block>
-                                <event-block sid="103739778308313">
+                                <event-block sid="580344258346050">
                                     <conditions>
-                                        <condition id="-7" name="Compare instance variable" sid="552144905778336" type="UndyneLegs">
-                                            <param id="0" name="Instance variable">HitAttempts</param>
-                                            <param id="1" name="Comparison">1</param>
-                                            <param id="2" name="Value">13</param>
+                                        <condition id="-7" name="Compare instance variable" sid="707317272440158" type="UndyneLegs">
+                                            <param id="0" name="Instance variable">NextAttack</param>
+                                            <param id="1" name="Comparison">5</param>
+                                            <param id="2" name="Value">2</param>
                                         </condition>
                                     </conditions>
                                     <actions>
-                                        <action id="22" name="Set paused" sid="856226024375401" type="Audio">
-                                            <param id="0" name="Tag">&quot;Music&quot;</param>
-                                            <param id="1" name="State">1</param>
-                                        </action>
-                                    </actions>
-                                </event-block>
-                                <event-block sid="3246169237782454">
-                                    <conditions>
-                                        <condition id="-7" name="Compare instance variable" sid="1274587453256673" type="UndyneLegs">
-                                            <param id="0" name="Instance variable">HitAttempts</param>
-                                            <param id="1" name="Comparison">0</param>
-                                            <param id="2" name="Value">13</param>
-                                        </condition>
-                                    </conditions>
-                                    <actions>
-                                        <action id="-10" name="Set value" sid="2670032810893258" type="CombatZone">
+                                        <action id="-10" name="Set value" sid="709625154325987" type="CombatZone">
                                             <param id="0" name="Instance variable">InfoText</param>
-                                            <param id="1" name="Value">&quot;* Sans is taking a break.&quot;</param>
-                                        </action>
-                                    </actions>
-                                </event-block>
-                                <event-block sid="3644008187143449">
-                                    <conditions>
-                                        <condition id="-7" name="Compare instance variable" sid="682062533172973" type="UndyneLegs">
-                                            <param id="0" name="Instance variable">HitAttempts</param>
-                                            <param id="1" name="Comparison">0</param>
-                                            <param id="2" name="Value">15</param>
-                                        </condition>
-                                    </conditions>
-                                    <actions>
-                                        <action id="-10" name="Set value" sid="3736070576317147" type="CombatZone">
-                                            <param id="0" name="Instance variable">InfoText</param>
-                                            <param id="1" name="Value">&quot;* The REAL battle finally begins.&quot;</param>
-                                        </action>
-                                    </actions>
-                                </event-block>
-                                <event-block sid="1538235747792909">
-                                    <conditions>
-                                        <condition id="-7" name="Compare instance variable" sid="1024124910185591" type="UndyneLegs">
-                                            <param id="0" name="Instance variable">HitAttempts</param>
-                                            <param id="1" name="Comparison">0</param>
-                                            <param id="2" name="Value">19</param>
-                                        </condition>
-                                    </conditions>
-                                    <actions>
-                                        <action id="-10" name="Set value" sid="6589808686267995" type="CombatZone">
-                                            <param id="0" name="Instance variable">InfoText</param>
-                                            <param id="1" name="Value">&quot;* Reading this doesn&apos;t seem&quot; &amp; newline &amp; &quot;  like the best use of time.&quot;</param>
-                                        </action>
-                                    </actions>
-                                </event-block>
-                                <event-block sid="2812257064436168">
-                                    <conditions>
-                                        <condition id="-7" name="Compare instance variable" sid="2926912538456532" type="UndyneLegs">
-                                            <param id="0" name="Instance variable">HitAttempts</param>
-                                            <param id="1" name="Comparison">0</param>
-                                            <param id="2" name="Value">20</param>
-                                        </condition>
-                                    </conditions>
-                                    <actions>
-                                        <action id="-10" name="Set value" sid="5769331507923777" type="CombatZone">
-                                            <param id="0" name="Instance variable">InfoText</param>
-                                            <param id="1" name="Value">&quot;* Sans is starting to look&quot; &amp; newline &amp; &quot;  really tired.&quot;</param>
-                                        </action>
-                                    </actions>
-                                </event-block>
-                                <event-block sid="5099706116970166">
-                                    <conditions>
-                                        <condition id="-7" name="Compare instance variable" sid="4981641262757057" type="UndyneLegs">
-                                            <param id="0" name="Instance variable">HitAttempts</param>
-                                            <param id="1" name="Comparison">0</param>
-                                            <param id="2" name="Value">21</param>
-                                        </condition>
-                                    </conditions>
-                                    <actions>
-                                        <action id="-10" name="Set value" sid="6593676851472784" type="CombatZone">
-                                            <param id="0" name="Instance variable">InfoText</param>
-                                            <param id="1" name="Value">&quot;* Sans is preparing something.&quot;</param>
-                                        </action>
-                                    </actions>
-                                </event-block>
-                                <event-block sid="2714631613990104">
-                                    <conditions>
-                                        <condition id="-7" name="Compare instance variable" sid="8080039389275643" type="UndyneLegs">
-                                            <param id="0" name="Instance variable">HitAttempts</param>
-                                            <param id="1" name="Comparison">0</param>
-                                            <param id="2" name="Value">22</param>
-                                        </condition>
-                                    </conditions>
-                                    <actions>
-                                        <action id="-10" name="Set value" sid="9963026487239779" type="CombatZone">
-                                            <param id="0" name="Instance variable">InfoText</param>
-                                            <param id="1" name="Value">&quot;* Sans is getting ready to&quot; &amp; newline &amp; &quot;  use his special attack.&quot;</param>
-                                        </action>
-                                    </actions>
-                                </event-block>
-                                <event-block sid="2661596577719519">
-                                    <conditions>
-                                        <condition id="-7" name="Compare instance variable" sid="8428201830043671" type="UndyneLegs">
-                                            <param id="0" name="Instance variable">HitAttempts</param>
-                                            <param id="1" name="Comparison">4</param>
-                                            <param id="2" name="Value">22</param>
-                                        </condition>
-                                    </conditions>
-                                    <actions>
-                                        <action id="0" name="Call function" sid="1127498986826935" type="Function">
-                                            <param id="0" name="Name">&quot;BattleMenuEnable&quot;</param>
-                                            <param id="1" name="Parameter {n}">0</param>
-                                        </action>
-                                        <action id="0" name="Call function" sid="5017116085592514" type="Function">
-                                            <param id="0" name="Name">&quot;CombatZoneResize&quot;</param>
-                                            <param id="1" name="Parameter {n}">CombatZone.BBoxLeft{###}CombatZone.BBoxTop{###}CombatZone.BBoxRight{###}CombatZone.BBoxBottom</param>
-                                        </action>
-                                        <action id="0" name="Call function" sid="4551826621279671" type="Function">
-                                            <param id="0" name="Name">&quot;SansAnimation&quot;</param>
-                                            <param id="1" name="Parameter {n}">&quot;Tired&quot;</param>
-                                        </action>
-                                        <action id="4" name="Set animation" sid="5653485612350006" type="UndyneHead">
-                                            <param id="0" name="Animation">&quot;LookLeft&quot;</param>
-                                            <param id="1" name="From">1</param>
-                                        </action>
-                                        <action id="33" name="Stop all" sid="5229506436586432" type="Audio" />
-                                        <action id="0" name="Call function" sid="1463949281462211" type="Function">
-                                            <param id="0" name="Name">&quot;SansText&quot;</param>
-                                            <param id="1" name="Parameter {n}">&quot;huff... puff...&quot;{###}&quot;Win1&quot;</param>
-                                        </action>
-                                        <action id="0" name="Call function" sid="793667002414320" type="Function">
-                                            <param id="0" name="Name">&quot;EndSansText&quot;</param>
-                                            <param id="1" name="Parameter {n}"></param>
+                                            <param id="1" name="Value">&quot;* The wind is howling...&quot;</param>
                                         </action>
                                     </actions>
                                 </event-block>
@@ -871,7 +609,7 @@
                                         </action>
                                     </actions>
                                 </event-block>
-                                <event-block sid="8194250317691436">
+                                <event-block disabled="1" sid="8194250317691436">
                                     <conditions>
                                         <condition id="-7" name="Compare instance variable" sid="516178945305094" type="UndyneLegs">
                                             <param id="0" name="Instance variable">HitAttempts</param>
@@ -901,7 +639,7 @@
                                         </action>
                                     </actions>
                                 </event-block>
-                                <event-block sid="174994798942467">
+                                <event-block disabled="1" sid="174994798942467">
                                     <conditions>
                                         <condition id="-7" name="Compare instance variable" sid="7058507285453225" type="UndyneLegs">
                                             <param id="0" name="Instance variable">HitAttempts</param>
@@ -2133,7 +1871,7 @@
                                     <actions>
                                         <action id="-9" name="Set value" sid="116875817771192" type="System">
                                             <param id="0" name="Variable">multiplier</param>
-                                            <param id="1" name="Value">multiplier * 210</param>
+                                            <param id="1" name="Value">multiplier * 21</param>
                                         </action>
                                         <action id="-9" name="Set value" sid="840223731806466" type="System">
                                             <param id="0" name="Variable">lastDamage</param>
